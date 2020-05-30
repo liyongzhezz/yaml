@@ -64,7 +64,7 @@ spec:
           name: https
           protocol: TCP
       - name: metrics-server-nanny
-        image: mirrorgooglecontainers/addon-resizer:1.8.9
+        image: mirrorgooglecontainers/addon-resizer:1.8.4
         resources:
           limits:
             cpu: 100m
