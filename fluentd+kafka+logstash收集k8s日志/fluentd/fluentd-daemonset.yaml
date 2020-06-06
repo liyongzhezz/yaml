@@ -99,7 +99,7 @@ spec:
           path: /var/log
       - name: varlibdockercontainers
         hostPath:
-          path: /data/docker/containers
+          path: /var/lib/docker/containers
       - name: config-volume
         configMap:
           name: fluentd-config
